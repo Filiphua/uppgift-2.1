@@ -7,10 +7,11 @@ namespace uppgift_2._1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("vilken är din favoritbok?");
-            Console.Write("Din favoritbok är:");
-            Console.ReadLine();
-
+               Console.WriteLine("vilken är din favoritbok?");
+               int favoritbok = int.Parse(Console.ReadLine());
+               Console.WriteLine("Din favoritbok är");
+               Console.WriteLine (favoritbok);
+               Console.ReadLine();
         }
     }
 }
